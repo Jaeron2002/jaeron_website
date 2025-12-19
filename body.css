@@ -88,19 +88,6 @@ text-align: center; /* Centers the nav links */
 
  }
 
- .footer {
-
- text-align: center; /* Centers footer text */
-
- padding: 20px; /* Adds padding inside footer */
-
- background: #003366; /* Sets footer background color */
-
- color: white; /* Sets footer text color */
-
- margin-top: 20px; /* Adds spacing above footer */
- }
-
 .logo {
     position: absolute; /* Positions the logo relative to the container */
     top: 10px; /* Adjust as needed for spacing from the top edge */
