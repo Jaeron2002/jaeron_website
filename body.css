@@ -1,0 +1,253 @@
+ body {
+
+ margin: 0; /* Removes default browser margin */
+
+ background: #777777; /* Sets light gray background color */
+
+ }
+
+ header {
+
+background: url('redgrungebackground.jpg');
+
+ color: #888888; /* Sets header text color to white */
+
+ padding: 25px; /* Adds space inside the header */
+
+ text-align: center; /* Centers the header text */
+
+ }
+
+ nav {
+
+ background: #ffffff; /* Sets medium blue background for navigation bar */
+
+ padding: 10px; /* Adds inner spacing for nav bar */
+
+text-align: center; /* Centers the nav links */
+
+ }
+
+ nav a {
+
+ color: rgb(0, 0, 0); /* Sets link text color to white */
+
+ margin: 0 15px; /* Adds horizontal spacing between menu items */
+
+ text-decoration: none; /* Removes underline from links */
+
+ font-weight: bold; /* Makes navigation text bold */
+
+ }
+
+ .hero {
+
+ background: url('tech.jpg') no-repeat center center/cover; 
+
+ font-family: MODERN WARFARE;
+
+ height: 350px; /* Sets fixed height of hero section */
+
+ display: flex; /* Enables flexbox for centering content */
+
+ justify-content: center; /* Horizontally centers content */
+
+ align-items: center; /* Vertically centers content */
+
+ color: #bdbdbd; /* Sets hero text color to white */
+
+ font-size: 2rem; /* Sets large text size */
+
+ font-weight: bold; /* Makes text bold */
+
+ text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.8); /* Adds shadow for readability */
+
+ text-align: center;
+
+ }
+
+ section {
+
+ padding: 40px; /* Adds inner spacing inside sections */
+
+ max-width: 1100px; /* Limits section width for better layout */
+
+ margin: auto; /* Centers section in the page */
+
+ background: url('redgrungebackground.jpg');
+
+ margin-top: 20px; /* Adds space above each section */
+
+ border-radius: 10px; /* Rounds the section corners */
+
+ }
+
+ h2 {
+
+ color: #003366; /* Sets heading color to dark blue */
+
+ }
+
+ .footer {
+
+ text-align: center; /* Centers footer text */
+
+ padding: 20px; /* Adds padding inside footer */
+
+ background: #003366; /* Sets footer background color */
+
+ color: white; /* Sets footer text color */
+
+ margin-top: 20px; /* Adds spacing above footer */
+ }
+
+.logo {
+    position: absolute; /* Positions the logo relative to the container */
+    top: 10px; /* Adjust as needed for spacing from the top edge */
+    left: 10px; /* Adjust as needed for spacing from the left edge */
+    width: 150px; /* Adjust the logo size as needed */
+    height: auto;
+}
+
+.platform-buttons {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.platform {
+  width: 220px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 0 20px;
+  border-radius: 12px;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 600;
+  transition: all 0.25s ease;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.4);
+}
+
+.platform img {
+  width: 32px;
+  height: 32px;
+  object-fit: contain;
+  filter: brightness(1.1);
+}
+
+.platform:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 14px 35px rgba(0,0,0,0.6);
+}
+
+/* Colors */
+.epic {
+  background: #000;
+}
+
+.steam {
+  background: linear-gradient(135deg, #1b2838, #2a475e);
+}
+
+.playstation {
+  background: #003087;
+}
+
+.nintendo {
+  background: #e60012;
+}
+
+.xbox {
+  background: #107c10;
+}
+
+.gamingcompanies {
+      font-family: "Segoe UI", sans-serif;
+}
+
+ul {
+      list-style: none;
+      max-width: 900px;
+      margin: auto;
+      padding: 0;
+    }
+
+    li {
+      background: linear-gradient(135deg, #1f1f2e, #2b2b44);
+      margin: 18px 0;
+      padding: 18px;
+      border-radius: 12px;
+      font-size: 20px;
+      font-weight: 700;
+    }
+
+    h3 {
+      margin-top: 10px;
+      font-size: 16px;
+      font-weight: 400;
+      color: #d0d0ff;
+      line-height: 1.5;
+    }
+
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+      max-width: 1200px;
+      margin: auto;
+      padding: 20px;
+    }
+
+    .card {
+      flex: 1 1 400px;
+      background: #1f1f2e;
+      border-radius: 12px;
+      padding: 20px;
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 12px 30px rgba(0,0,0,0.6);
+    }
+
+    .card.good {
+      border-left: 6px solid #4CAF50;
+    }
+
+    .card.bad {
+      border-left: 6px solid #f44336;
+    }
+
+    .info {
+      text-align: center;
+      margin: 30px 0 20px;
+      letter-spacing: 1px;
+    }
+
+    .goodbad {
+      list-style: none;
+      padding: 0;
+    }
+
+    li {
+      margin: 15px 0;
+    }
+
+    li h3 {
+      margin: 0;
+      font-size: 18px;
+      font-weight: 600;
+    }
+
+    li p {
+      margin: 5px 0 0 0;
+      font-size: 15px;
+      color: #d0d0ff;
+      line-height: 1.5;
+    }
